@@ -1,0 +1,30 @@
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\bin\Debug\net8.0\appsettings.json
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\bin\Debug\net8.0\MVC Test.staticwebassets.runtime.json
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\bin\Debug\net8.0\MVC Test.exe
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\bin\Debug\net8.0\MVC Test.deps.json
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\bin\Debug\net8.0\MVC Test.runtimeconfig.json
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\bin\Debug\net8.0\MVC Test.dll
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\bin\Debug\net8.0\MVC Test.pdb
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.AssemblyInfoInputs.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.AssemblyInfo.cs
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.csproj.CoreCompileInputs.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.RazorAssemblyInfo.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.RazorAssemblyInfo.cs
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\staticwebassets\msbuild.MVC Test.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\staticwebassets\msbuild.build.MVC Test.props
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MVC Test.props
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MVC Test.props
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\scopedcss\bundle\MVC Test.styles.css
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\scopedcss\projectbundle\MVC Test.bundle.scp.css
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.dll
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\refint\MVC Test.dll
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.pdb
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\MVC Test.genruntimeconfig.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\MVC Test\obj\Debug\net8.0\ref\MVC Test.dll

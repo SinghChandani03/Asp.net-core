@@ -1,0 +1,7 @@
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\Viewmodel\obj\Debug\net8.0\Viewmodel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\Viewmodel\obj\Debug\net8.0\Viewmodel.AssemblyInfoInputs.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\Viewmodel\obj\Debug\net8.0\Viewmodel.AssemblyInfo.cs
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\Viewmodel\obj\Debug\net8.0\Viewmodel.csproj.CoreCompileInputs.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\Viewmodel\obj\Debug\net8.0\Viewmodel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\Viewmodel\obj\Debug\net8.0\Viewmodel.RazorAssemblyInfo.cache
+C:\Users\Dev40\Desktop\Chandani Singh\Asp.net core\Viewmodel\obj\Debug\net8.0\Viewmodel.RazorAssemblyInfo.cs

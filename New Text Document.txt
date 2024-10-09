@@ -1,0 +1,131 @@
+using CRUDApp.Models;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System.Text;
+
+
+namespace CRUDApp.Controllers
+{
+    public class StudentController : Controller
+    {
+        private string url = "https://localhost:7070/api/StudentAPI/";
+        private HttpClient client = new HttpClient();
+
+        [HttpGet]
+        public IActionResult Index()
+        {
+            List<Student> student = new List<Student>();
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string result = response.Content.ReadAsStringAsync().Result;
+                var data = JsonConvert.DeserializeObject<List<Student>>(result);
+                if (data != null)
+                {
+                    student = data;
+                }
+            }
+            return View(student);
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Student stdt)
+        {
+            string data = JsonConvert.SerializeObject(stdt);    
+            StringContent stringContent = new StringContent(data, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = client.PostAsync(url, stringContent).Result; 
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["insert"] = "Student added successfully";
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            Student student = new Student();
+            HttpResponseMessage response = client.GetAsync(url + id).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string result = response.Content.ReadAsStringAsync().Result;
+                var data = JsonConvert.DeserializeObject<Student>(result);
+                if (data != null)
+                {
+                    student = data;
+                }
+            }
+            return View(student);
+        }
+
+        [HttpPut]
+        public IActionResult Edit(Student stdt)
+        {
+            string data = JsonConvert.SerializeObject(stdt);
+            StringContent stringContent = new StringContent(data, Encoding.UTF8, "application/json");
+            HttpResponseMessage response = client.PutAsync(url + stdt.id, stringContent).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["update"] = "Student updated successfully";
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            Student student = new Student();
+            HttpResponseMessage response = client.GetAsync(url + id).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string result = response.Content.ReadAsStringAsync().Result;
+                var data = JsonConvert.DeserializeObject<Student>(result);
+                if (data != null)
+                {
+                    student = data;
+                }
+            }
+            return View(student);
+        }
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            Student student = new Student();
+            HttpResponseMessage response = client.GetAsync(url + id).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                string result = response.Content.ReadAsStringAsync().Result;
+                var data = JsonConvert.DeserializeObject<Student>(result);
+                if (data != null)
+                {
+                    student = data;
+                }
+            }
+            return View(student);
+        }
+
+        [HttpPost, ActionName("Delete")]
+        public IActionResult DeleteConfirm(int id)
+        {
+            HttpResponseMessage response = client.DeleteAsync(url + id).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                TempData["delete"] = "Student deleted successfully";
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+    }
+
+}
+ChatGPT
+ChatGPT
